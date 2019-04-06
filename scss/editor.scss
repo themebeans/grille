@@ -1,0 +1,68 @@
+/*
+Theme Name: Grille
+Description: Used to style the TinyMCE editor.
+*/
+
+@import url("../../style.min.css");
+
+body.wp-autoresize {
+	padding: 20px 25px !important;
+	background: #fff;
+}
+
+p,
+ul,
+ol,
+dl,
+dd,
+form table,
+address,
+fieldset,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.gist,
+.bean-alert {
+	margin-bottom: 20px;
+}
+
+a {
+	border-bottom: 2px solid #f2f2f2;
+	padding-bottom: 2px;
+}
+
+ul ul,
+ul ol,
+ol li ul,
+ul li ol,
+ul li ul,
+ol li ol {
+	margin: 0 0 30px;
+}
+
+ul {
+	list-style-type: disc;
+}
+
+ol {
+	list-style-type: decimal;
+}
+
+ul,
+ol {
+	margin: 40px 0 40px 20px;
+}
+
+ol li ul,
+ul li ol,
+ul li ul,
+ol li ol {
+	margin: 20px 0 20px 20px;
+}
+
+pre {
+	margin-left: 0 !important;
+}
