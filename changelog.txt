@@ -1,0 +1,171 @@
+** Grille Changelog **
+
+06 April 2019, Version 3.0.3
+	* New: Add support for the new `wp_body_open` hook in WordPress 5.2+
+	* Tweak: Admin 1.6.1
+
+08 March 2019, Version 3.0.2
+	* New: Add support for the Proza Libre Google font
+
+04 January 2018, Version 3.0.1
+	* New: Add support for PHP 7.2
+	* Tweak: Adjust meta styling for Gutenberg metaboxes
+	* Tweak: Update languages
+	* Fix: Resolve WooCommerce quantity display error
+
+16 July 2018, Version 3.0.0
+	* Fix: HTTPS Google fonts now resolve properly
+	* New: Add a new license Customizer control for managing your theme license
+	* New: Add compatibility for WooCommerce 3.4.0
+	* New: Add minified Customizer JS and editor stylesheet assets with auto-prefixing
+	* New: Add new Underscore JS Customizer controls for improved Customizer speed
+	* New: Add SCSS support with auto browser auto-prefixing
+	* New: Add support for Contact Form 7
+	* New: Add support for core custom logo functionality and auto-migration
+	* New: Add TGM Plugin Activation support with recommended plugins
+	* New: Add the latest ThemeBeans framework upgrade with modern coding standards and build scripts in place
+	* New: Add WordPress 4.7- backwards compatibility notice
+	* New: concated styles and scripts for faster performance 🚀
+	* Remove: Contact Template (for improved third-party form builder support)
+	* Remove: Downloads Template (for improved core EDD /downloads/ archive support)
+	* Remove: Dribbble Template (due to updated Dribbble API requirements)
+	* Remove: Remove Google Analytics settings, in lieu of Yoast SEO (or another plugin of your choice)[https://wordpress.org/plugins/wordpress-seo]
+	* Remove: Remove legacy framework code
+	* Remove: Remove the Customizer Login Logo options, in lieu of (Login Designer)[https://wordpress.org/plugins/login-designer]
+	* Remove: Remove the dashboard license widget (we have the new Customizer License Key control)
+	* Remove: Retina.js support (for native WordPress support)
+	* Tweak: Clean up comments
+	* Tweak: Improve Customizer settings with proper organization
+	* Tweak: Improve Customizer UI
+	* Tweak: Improve debug mode that works with minified asset delivery throughout the entire theme
+	* Tweak: Improved PHPCS code readability
+	* Tweak: Isotope 3.0.4 update
+	* Tweak: Move /js/ to /assets/js/{source}
+	* Tweak: Prepare for Gutenberg compatibility
+	* Tweak: Update child theme
+
+24 August 2017, Version 2.0.4
+	* Tweak: Add conditional checks for Envato Hosted accounts
+
+30 June 2017, Version 2.0.3
+	New: Add a new metabox to output an EDD download shortcode below the portfolio gallery images
+	* Tweak: Remove the video widget, as there's one included in core now
+	* Tweak: Update EDD styling
+	* Tweak: Update metabox functionality to the updated framework
+	* Tweak: Update languages
+
+14 December 2016, Version 2.0.2
+	* Tweak: WordPress 4.7 touchups
+	* Tweak: Custom CSS -> WP Core CSS migration
+	* Tweak: Update pingback header
+	* Tweak: Update languages
+
+02 November 2016, Version 2.0.1
+	* Fix: Page comments bug
+
+25 January 2016, Version 2.0.0
+	* Tweak: EDD_Theme_Updater Update
+	* Tweak: Update languages
+
+04 January 2016, Version 1.9.3
+	* Fix: Dynamic Sidebar WP 4.4 fix
+
+18 December 2015, Version 1.9.2
+	* Fix: WP 4.4 comments fix
+	* Tweak: Contact template now uses wp_mail mailing function
+
+31 August 2015, Version 1.9.1
+	* New: 100% GPL license
+
+26 August 2015, Version 1.9.0
+	* New:  4.3 widget __construct update
+	* New: Add Customizer Export/Import support
+	* New: Add minified css/js files
+	* Tweak: Custom CSS Editor UI/X update
+	* Tweak: Framework updated to v2.6.2.2
+	* Tweak: Improved optimization of image assets
+	* Tweak: Move Branding section to WP default Site Identity section
+	* Tweak: Remove favicon & apple touch uploader (WP 4.3 is default)
+	* Tweak: WP 4.3 Theme Customizer update
+
+02 July 2015, Version 1.8.2
+	* Tweak: Portfolio order update
+	* Tweak: Woocommerce quantity input update
+
+30 April 2015, Version 1.8.2
+	* Tweak: bean_custom_form_filters comments 4.2+ fix
+	* Tweak: Framework updated to v2.2.5
+	* Tweak: Infinitescroll + FitVids fix
+	* Tweak: Theme Customizer UI improvements
+	* Tweak: Visual post editor touch ups
+
+22 April 2015, Version 1.8.0
+	* New: Bean Team plugin compatibility
+	* Tweak: Framework updated to v2.2.4.2
+	* Tweak: Updated Custom CSS Editor
+	* Tweak: Updated Theme Customizer UI
+	* Tweak: WooCommerce 2.3.0 template update
+
+14 January 2015, Version 1.7.1
+	* Tweak: Contact form update with anti-spam $headers
+	* Tweak: Framework updated to v2.2.3.1
+
+22 December 2014, Version 1.7.0
+	* Tweak: Framework updated to v2.2.2
+	* Tweak: Updated child theme
+
+
+21 October 2014, Version 1.6.1
+	* New: Add option to display post archivial info
+
+20 October 2014, Version 1.6
+	* New: Add Dribbble feed functionality
+	* New: Add support for Bean Dribbble plugin
+
+3 October 2014, Version 1.5.1
+	* New: Gravity Forms plugin support
+	* Tweak: Framework updated to v2.1.1
+
+24 September 2014, Version 1.5.0
+	* New: Add WooCommerce Support
+	* Tweak: Animation engine update
+	* Tweak: Framework updated to v2.1.0
+
+4 September 2014, Version 1.4.0
+	* New: WP 4.0 compatibility update
+	* Tweak: Framework updated to v2.0.9.1
+
+9 July 2014, Version 1.3.0
+	* New: Add Site Map template
+	* New: Support for Bean 500px plugin
+	* Tweak: Framework updated to v2.0.9
+	* Tweak: Modded 'page' filenames to 'template'
+	* Tweak: Retina.js update to v1.3.0
+	* Tweak: Update styles for templates' mod
+
+24 Apr 2014, Version 1.2.0
+	* New: Add portfolio taxonomy widget
+	* New: Related blog posts grid
+	* Tweak: WP 3.9+ UI touch ups
+
+8 Apr 2014, Version 1.1.2
+	* New: Aside post format support
+	* Tweak: Facebook sharing update
+	* Tweak: Loading.gif update
+	* Tweak: Customizer UI update
+	* Tweak: Move widget.init to functions.php
+	* Tweak: Update child theme
+	* Tweak: Framework updated to v2.0.7
+
+12 Mar 2014, Version 1.1.1
+	* Tweak: Update theme update system
+	* Tweak: Framework updated to v2.0.5
+
+26 Feb 2014, Version 1.1.0
+	* New: New theme version notifications/update system
+	* Tweak: Framework updated to v2.0.4
+	* Fix: Post pagination translation fix
+	* Fix: Header/Filter list item width fix
+
+16 Jan 2014, Version 1.0.0
+	* New: Initial release
